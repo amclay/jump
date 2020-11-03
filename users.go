@@ -1,7 +1,7 @@
 package jump
 
 import (
-	"github.com/gdbu/jump/users"
+	"github.com/amclay/jump/users"
 )
 
 // GetUsersList will get the current users list

@@ -14,6 +14,7 @@ github.com/gdbu/dbl v0.6.0 h1:UBLdYo5vYoA7f3d0rGtbCjkUkU4Kg3i6RlZu9qSty3Q=
 github.com/gdbu/dbl v0.6.0/go.mod h1:EZ3oPyCJXWd2MMCPGJOgOkLSY42ijMnYjomB8xyKpdo=
 github.com/gdbu/dbutils v0.5.4 h1:K+NMPXPcnujL/Vzxj0PxMwMgtoeQ6jWTu0SEcm4ShsI=
 github.com/gdbu/dbutils v0.5.4/go.mod h1:5ZrCjLny8ipC0EuRbiyOsNkB6hGJXbpljj7u9JH928w=
+github.com/gdbu/jump v0.7.1/go.mod h1:MdG4x5TtecRQ0jDgaLSNvrN0FBH//GpqQYyzTPVzU6A=
 github.com/gdbu/logger v0.5.14 h1:xHIff6czmsbbnUceffDzPw10W3gwtYQM0oU6SyIl1bs=
 github.com/gdbu/logger v0.5.14/go.mod h1:U+Gsgp6ySEBGlK47yjXuYT+TyQazYUPFg0afxHznkq0=
 github.com/gdbu/snapshotter v0.5.10 h1:ofc5KRDsdjCmFEMpW4i2NIQVIH54hJbULRg85/+VidQ=

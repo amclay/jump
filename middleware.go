@@ -3,7 +3,7 @@ package jump
 import (
 	"fmt"
 
-	"github.com/gdbu/jump/permissions"
+	"github.com/amclay/jump/permissions"
 	"github.com/hatchify/errors"
 
 	"github.com/vroomy/httpserve"

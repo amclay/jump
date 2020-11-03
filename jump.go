@@ -2,16 +2,17 @@ package jump
 
 import (
 	"fmt"
+	"log"
 	"net/http"
 
 	"github.com/hatchify/scribe"
 
 	"github.com/hatchify/errors"
 
+	"github.com/amclay/jump/permissions"
+	"github.com/amclay/jump/sessions"
+	"github.com/amclay/jump/users"
 	"github.com/gdbu/apikeys"
-	"github.com/gdbu/jump/permissions"
-	"github.com/gdbu/jump/sessions"
-	"github.com/gdbu/jump/users"
 )
 
 const (
@@ -37,6 +38,7 @@ const (
 
 // New will return a new instance of Jump
 func New(dir string) (jp *Jump, err error) {
+	log.Println("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@")
 	var j Jump
 	j.out = scribe.New("Jump")
 	if j.perm, err = permissions.New(dir); err != nil {

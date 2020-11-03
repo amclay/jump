@@ -1,6 +1,6 @@
 package jump
 
-import "github.com/gdbu/jump/permissions"
+import "github.com/amclay/jump/permissions"
 
 // SetPermission will give permissions to a provided group for a resourceKey
 // Note: See NewResourceKey for more context

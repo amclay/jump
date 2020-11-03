@@ -1,7 +1,7 @@
 package jump
 
 import (
-	"github.com/gdbu/jump/permissions"
+	"github.com/amclay/jump/permissions"
 	"github.com/vroomy/httpserve"
 )
 

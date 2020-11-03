@@ -1,7 +1,7 @@
 package jump
 
 import (
-	"github.com/gdbu/jump/users"
+	"github.com/amclay/jump/users"
 )
 
 func (j *Jump) postUserCreateActions(userID string, groups []string) (apiKey string, err error) {
